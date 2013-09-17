@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="/css/app.css">
-  </head>
-  <body>
-    <div class="logo">
+
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
    width="360px" height="334.99px" viewBox="0 0 360 334.99" enable-background="new 0 0 360 334.99" xml:space="preserve">
 <g id="Layer_2" display="none">
@@ -296,7 +290,3 @@
   </g>
 </g>
 </svg>
-</div>
-    <div class="message">Sit tight</div>
-  </body>
-</html>

@@ -1,0 +1,18 @@
+
+/* line 1 : /Users/jpillora/.grunt-sources/web/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 2 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #e48632;
+}
+
+/* line 7 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+div {
+  text-align: center;
+  font-family: Impact;
+  color: #fff;
+  font-size: 40pt;
+}
