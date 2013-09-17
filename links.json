@@ -1,0 +1,6 @@
+{
+  "links": [
+    { "id": "node", "title": "Node.js Website", "url": "http://nodejs.org", "tags": "node" },
+    { "id": "npm", "title": "npm Website", "url": "http://npmjs.org", "tags": "node package manager" }
+  ]
+}
