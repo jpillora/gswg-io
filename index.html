@@ -2,28 +2,9 @@
 <html>
   <head>
     <title>Getting Started with Grunt</title>
-    <link rel="icon" type="image/x-icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAeoqWAERZaQAUMEcAZHeFACSH5wDJyckAGaj6AD9UZQAcm/MAGKb3ACJ+1wBPZHQAI4PhABQwRgD///8AIYDZABZ6tQAapfgAFjJIABQwRQCfqrMAPFNlAImXogAUN1EA5OfpACOG5gAYp/kAIovpABmn+QAgiuQAGDRJACBzwgAZqfsAEy9FABmHzgAaesAAbn+MAK63vwAfku0AF47SACJ91AAUOlUAFDRNAOPm6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAAAAAAAAACIFHAUiAAAAAAAAAAAAAA4HKyEDIQ4AAAAAAAAAAAYPGyEhIQoPBgAAAAAAAAwlIw4hISEOJBUXAAAAAAAAAAUdISEhBwUAAAAAAAAAAAAaISEhISEaAAAAAAAAAAAOCSEhISEhJw4AAAAAAAAOISkIKiEYAg0hDgAAAAAAACEfDiEhIQ4OEgAAAAAAAAAhISEhISEhISEAAAAAAAAEISEOISEhDiEhJgAAAAAAABYgHiEhIRALAQAAAAAAAAAiKBMOFA4OESIAAAAAAAAAAAAALA4AAAAAAAAAAP//AAD+/wAA+D8AAPAfAADgDwAAwAcAAPAfAADwHwAA4A8AAMAHAADgDwAA4A8AAMAHAADgDwAA4A8AAPz/AAA="><style>
-/* line 1 : /Users/jpillora/.grunt-sources/web/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
-
-/* line 2 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
-html,
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background: #e48632;
-}
-
-/* line 9 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
-div {
-  padding-top: 20px;
-  text-align: center;
-  font-family: Impact;
-  color: #fff;
-  font-size: 40pt;
-}
-</style>
+    <link rel="icon" type="image/x-icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjBFBBs9WHIgR2naJVaF+SVWhfohSm3iHUFddxUwRQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFAR1CXsEhSWv+Kqr4/yqq+P8qqvj/Kqr4/yFKbP8gSWnRFS9FAQAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFETxRZdNGXXP8KmCK/ytKZP8qqvj/Kqr4/ytKZP8qYIr/Rl5z/jxRZdMVMEURAAAAAAAAAAAAAAAAAAAAAEldcMm/xMj/uMLL/ytKZP8rerP/K3qz/yt6s/8rerP/LEpk/7jByv+/xMj/SV1wyQAAAAAAAAAAAAAAAAAAAABYa33qUmZ68TtkifsqW4b/K5LV/yqq+P8qqvj/K5HV/ypbhv87ZIr/Umd881hrfeoAAAAAAAAAAAAAAAAAAAAAVWh8tj1TZ4YpZZ//Kqr4/yt6s/8rqvj/Kqr4/yt5s/8qqvj/Kmek/z5ZcZFVaXy2AAAAAAAAAAAAAAAAAAAAABUvRQEZM0kkKWWf/yqq+P8rktX/Kqr4/yqq+P8rkdX/Kqr4/ylln/8cOVInFTBFAQAAAAAAAAAAAAAAAAAAAAAZNk4OIUls0illn/8rqvn/K6r5/yuq+f8rqvn/K6r5/yyn9v8pZZ//IEls0BUwRQ0AAAAAAAAAAAAAAAAAAAAAH0Vo6Clln/8sp/b/LXCr/y1Ud/8rqvn/Kqr4/y1UeP8tcKv/LKf2/ylln/8gSGrtAAAAAAAAAAAAAAAAAAAAAB9EZfEpZZ//QV56/97e3v8uWoP/K6r5/yuq+f8uW4P/3t7e/0Bdef8pZZ//H0Rm8wAAAAAAAAAAAAAAAAAAAAAcPVhaJluG/iZNbv8tcKv/K6b2/yt8vf8rfL3/K6f3/y1wq/8mTG3/JluG/x1AXF0AAAAAAAAAAAAAAAAAAAAAGzxXhSt8tf8rqvn/K6r5/yt9uf8qqvj/K6r5/yt+uf8rqvn/K6r5/yt7tP8hTG6kAAAAAAAAAAAAAAAAAAAAABs8Vp4kVXvtK6r5/yuq+f8rqvn/K6r5/yuq+f8rqvn/K6r5/yuq+f8kVnvwH0dltQAAAAAAAAAAAAAAAAAAAAAWMEUCFjJJ7Suq+f8aO1X4JVh/8St5sP8rerD/JVl/9Rs7Vvkrqvn/FzJJ7RUwRQIAAAAAAAAAAAAAAAAAAAAAFzJJ0xYySP0cPVf+FzJJ9xUvRa0VL0X9FS9F/hUwRaUWMkj3HD1X/hcySf0WMknTAAAAAAAAAAAAAAAAAAAAABUvRSMVL0WvFjJIlxUwRQQVL0UiFS9FYxUvRZkVL0UzFS9FBBYySJcVL0WvFTBFIwAAAAAAAAAA8A8AAOAHAADAAwAAwAMAAMADAADAA/C/wAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAA==">
+    <link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
     <div class="logo">
@@ -319,6 +300,46 @@ div {
 </g>
 </svg>
 </div>
-    <div class="message">Sit tight</div>
+    <div class="title">Getting Started with Grunt</div>
+    <div class="subtitle">Coming soon...</div>
+    <div id="popup">
+      <div class="loading">Loading...</div>
+      <div id="link-title"></div>
+      <div id="link-url"></div>
+    </div>
+    <script>
+      var LINKS = [
+  { "id": "grunt", "title": "Grunt Website", "url": "http://gruntjs.com" },
+  { "id": "npm", "title": "npm Website", "url": "http://npmjs.org", "tags": "node package manager" },
+  { "id": "node", "title": "Node.js Website", "url": "http://nodejs.org" },
+  { "id": "dry", "title": "Wikipedia \"Don't repeat yourself\"", "url": "http://en.wikipedia.org/wiki/Don't_repeat_yourself", "tags": "programming best-practice" },
+  { "id": "github", "title": "Github", "url": "https://www.github.com" },
+  { "id": "git", "title": "Getting Started with Git", "url": "http://git-scm.com/book/en/Getting-Started-Git-Basics", "tags": "version-control" },
+  { "id": "jslint", "title": "JSLint", "url": "http://www.jslint.com", "tags": "static-analysis" },
+  { "id": "jslint-options", "title": "JSLint Options", "url": "http://www.jslint.com/lint.html#options", "tags": "static-analysis" },
+  { "id": "the-good-parts", "title": "JavaScript The Good Parts by Douglas Crockford", "url": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742", "tags": "recommended-reading" },
+  { "id": "jshint", "title": "JSHint", "url": "http://jshint.com/", "tags": "static-analysis" },
+  { "id": "jshint-options", "title": "", "url": "http://jshint.com/docs/#enforcing_options", "tags": "static-analysis" },
+  { "id": "grunt-contrib-jshint", "title": "JSHint Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-jshint", "tags": "gruntplugin" },
+  { "id": "coffeescript", "title": "CoffeeScript Website", "url": "http://coffeescript.org", "tags": "transcompiler" },
+  { "id": "grunt-contrib-coffee", "title": "CoffeeScript Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-coffee", "tags": "gruntplugin" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" }
+];
+      
+    </script>
+    <script src="js/app.js"></script>
   </body>
 </html>

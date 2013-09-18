@@ -1,6 +1,30 @@
-{
-  "links": [
-    { "id": "node", "title": "Node.js Website", "url": "http://nodejs.org", "tags": "node" },
-    { "id": "npm", "title": "npm Website", "url": "http://npmjs.org", "tags": "node package manager" }
-  ]
-}
+[
+  { "id": "grunt", "title": "Grunt Website", "url": "http://gruntjs.com" },
+  { "id": "npm", "title": "npm Website", "url": "http://npmjs.org", "tags": "node package manager" },
+  { "id": "node", "title": "Node.js Website", "url": "http://nodejs.org" },
+  { "id": "dry", "title": "Wikipedia \"Don't repeat yourself\"", "url": "http://en.wikipedia.org/wiki/Don't_repeat_yourself", "tags": "programming best-practice" },
+  { "id": "github", "title": "Github", "url": "https://www.github.com" },
+  { "id": "git", "title": "Getting Started with Git", "url": "http://git-scm.com/book/en/Getting-Started-Git-Basics", "tags": "version-control" },
+  { "id": "jslint", "title": "JSLint", "url": "http://www.jslint.com", "tags": "static-analysis" },
+  { "id": "jslint-options", "title": "JSLint Options", "url": "http://www.jslint.com/lint.html#options", "tags": "static-analysis" },
+  { "id": "the-good-parts", "title": "JavaScript The Good Parts by Douglas Crockford", "url": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742", "tags": "recommended-reading" },
+  { "id": "jshint", "title": "JSHint", "url": "http://jshint.com/", "tags": "static-analysis" },
+  { "id": "jshint-options", "title": "", "url": "http://jshint.com/docs/#enforcing_options", "tags": "static-analysis" },
+  { "id": "grunt-contrib-jshint", "title": "JSHint Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-jshint", "tags": "gruntplugin" },
+  { "id": "coffeescript", "title": "CoffeeScript Website", "url": "http://coffeescript.org", "tags": "transcompiler" },
+  { "id": "grunt-contrib-coffee", "title": "CoffeeScript Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-coffee", "tags": "gruntplugin" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" }
+]

@@ -3,7 +3,8 @@
 
 /* line 2 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 html,
-body {
+body,
+#popup {
   padding: 0;
   margin: 0;
   width: 100%;
@@ -15,7 +16,29 @@ body {
 div {
   padding-top: 20px;
   text-align: center;
-  font-family: Impact;
+  font-family: 'Pathway Gothic One', sans-serif;
   color: #fff;
   font-size: 40pt;
+}
+
+/* line 16 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+.loading {
+  font-size: 30pt;
+}
+
+/* line 19 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+#popup {
+  padding-top: 60px;
+  position: fixed;
+  z-index: 1;
+  background: rgba(20,20,20,0.9);
+  top: 0;
+  left: 0;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+}
+
+/* line 28 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+#popup.active {
+  opacity: 1;
 }
