@@ -2,6 +2,11 @@
 html
   head
     title Getting Started with Grunt
+    script.
+      window.GoogleAnalyticsObject = 'ga';
+      window.ga = window.ga || function () {
+          (window.ga.q = window.ga.q || []).push(arguments)
+      }, window.ga.l = 1 * new Date();
     link(rel="icon", type="image/x-icon", href=showFile("src/views/grunt.ico"))
     link(href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One',rel='stylesheet',type='text/css')
     link(rel="stylesheet", href="css/app.css")
@@ -19,10 +24,12 @@ html
       #link-title
       #link-url
 
-    script.
-      var LINKS = !{ showFile("links.json") };
+
+
 
     //- script(src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery#{min}.js')
     //- script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular#{min}.js')
+    
+    script(src="//www.google-analytics.com/analytics.js")
     script(src="js/app.js")
     //- !{ js() }

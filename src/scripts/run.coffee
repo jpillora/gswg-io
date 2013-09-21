@@ -1,20 +1,54 @@
 
+ga 'create', 'UA-38709761-11', window.location.hostname
+ga 'send', 'pageview'
 
-linkId = window.location.hash.substr(1)
+LINKS = null
 
-$ = (id) -> document.getElementById id
+$ = (id) ->
+  document.getElementById id
 
-load = (link) ->
-
+load = (link, query) ->
+  load.loading = true
+  if link.pattern
+    re = new RegExp(link.pattern)
+    link.url = query.replace re, link.url
+    link.title = query.replace re, link.title
+  #track
+  ga 'send', 'event', 'Link', link.tite, link.url
+  #display popup
   $('link-title').innerHTML = link.title
   $('link-url').innerHTML = link.url
   $('popup').className = 'active'
+  #show for 2seconds
   setTimeout ->
     window.location.href = link.url
   , 2000
+  return
 
-if linkId
+run = (query) ->
+  return if not query or load.loading
   for link in LINKS
-    if link.id is linkId
-      load link
-      break
+    if link.id is query or
+       link.pattern and new RegExp(link.pattern).test query
+      load link, query
+      return
+  return
+
+check = ->
+  query = window.location.hash.substr(1)
+  return if query is check.last
+  check.last = query
+  run query
+
+start = ->
+  check()
+  setInterval check, 100
+
+xhr = new XMLHttpRequest
+xhr.open 'GET', 'links.json'
+xhr.onreadystatechange = ->
+  if xhr.readyState is 4
+    LINKS = JSON.parse xhr.responseText
+    start()
+xhr.send()
+
