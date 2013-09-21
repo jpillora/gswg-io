@@ -14,7 +14,7 @@ load = (link, query) ->
     link.url = query.replace re, link.url
     link.title = query.replace re, link.title
   #track
-  ga 'send', 'event', 'Link', link.tite, link.url
+  ga 'send', 'event', 'Link', link.title, link.url
   #display popup
   $('link-title').innerHTML = link.title
   $('link-url').innerHTML = link.url

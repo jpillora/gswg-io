@@ -19,7 +19,7 @@
       link.url = query.replace(re, link.url);
       link.title = query.replace(re, link.title);
     }
-    ga('send', 'event', 'Link', link.tite, link.url);
+    ga('send', 'event', 'Link', link.title, link.url);
     $('link-title').innerHTML = link.title;
     $('link-url').innerHTML = link.url;
     $('popup').className = 'active';
