@@ -54,7 +54,7 @@
   { "id": "this-operator", "title": "MDN JavaScript Reference - this", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this", "tags": "" },
   { "id": "grunt-plugins", "title": "Grunt Plugins", "url": "http://gruntjs.com/plugins", "tags": "" },
   { "pattern": "npm-package:([\\w-]+)", "title": "npm package \"$1\" ", "url": "https://npmjs.org/package/$1", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "iife", "title": "Immediately-Invoked Function Expression", "url": "http://benalman.com/news/2010/11/immediately-invoked-function-expression/", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
