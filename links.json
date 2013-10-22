@@ -91,6 +91,10 @@
   { "id": "eloquent-javascript", "title": "Eloquent JavaScript - A Modern Introduction to Programming", "url": "http://eloquentjavascript.net/", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "webstorm", "title": "WebStorm — The smartest JavaScript IDE", "url": "http://www.jetbrains.com/webstorm/v", "tags": "" },
+  { "id": "yeoman", "title": "Yeoman\nMODERN WORKFLOWS FOR MODERN WEBAPPS", "url": "http://yeoman.io/", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
 
