@@ -70,29 +70,25 @@
   { "id": "angular", "title": "AngularJS: HTML enhanced for web apps!", "url": "http://angularjs.org/", "tags": "" },
   { "id": "angular-screencasts", "title": "egghead.io: Learn AngularJS with Tutorial Videos & Training", "url": "http://egghead.io/", "tags": "" },
   { "id": "ember", "title": "Ember.js: A framework for creating ambitious web applications", "url": "http://emberjs.com/", "tags": "" },
-
-  { "id": "", "title": "", "url": "", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "grunt-stats", "title": "Grunt Download Statistics", "url": "http://npm-stat.vorb.de/charts.html?package=grunt#months", "tags": "" },
   { "id": "mocha", "title": "Mocha", "url": "http://visionmedia.github.io/mocha/", "tags": "" },
-
-
   { "id": "grunt-concurrent", "title": "grunt-concurrent", "url": "https://github.com/sindresorhus/grunt-concurrent", "tags": "" },
   { "id": "load-grunt-tasks", "title": "load-grunt-tasks", "url": "https://github.com/sindresorhus/load-grunt-tasks", "tags": "" },
-
   { "id": "osx", "title": "Apple - Mac OSX", "url": "http://www.apple.com/au/osx/", "tags": "" },
   { "id": "brew", "title": "Homebrew: The missing package manager for OS X", "url": "http://brew.sh/", "tags": "" },
   { "id": "sublime", "title": "Sublime Text", "url": "http://www.sublimetext.com/", "tags": "" },
   { "id": "sourcetree", "title": "SourceTree: A free Git & Mercurial client for Windows or Mac.", "url": "http://www.sourcetreeapp.com/", "tags": "" },
   { "id": "chrome", "title": "Google Chrome", "url": "https://www.google.com/intl/en/chrome/browser/", "tags": "" },
   { "id": "chrome-devtools", "title": "Chrome DevTools", "url": "https://developers.google.com/chrome-developer-tools/", "tags": "" },
-
   { "id": "crockford-on-javascript", "title": "Crockford on JavaScript", "url": "http://www.youtube.com/playlist?list=PL7664379246A246CB", "tags": "" },
-  { "id": "the-good-parts-talk", "title": "Talk on JavaScripts: The Good Parts at Etsy", "url": "http://www.livestream.com/etsy/video?clipId=pla_1463e546-47ed-4a93-b59a-bd52b236e8b8", "tags": "" },
+  { "id": "the-good-parts-talk", "title": "Talk on 'JavaScripts: The Good Parts' at Etsy", "url": "http://www.livestream.com/etsy/video?clipId=pla_1463e546-47ed-4a93-b59a-bd52b236e8b8", "tags": "" },
   { "id": "eloquent-javascript", "title": "Eloquent JavaScript - A Modern Introduction to Programming", "url": "http://eloquentjavascript.net/", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "webstorm", "title": "WebStorm — The smartest JavaScript IDE", "url": "http://www.jetbrains.com/webstorm/v", "tags": "" },
   { "id": "yeoman", "title": "Yeoman\nMODERN WORKFLOWS FOR MODERN WEBAPPS", "url": "http://yeoman.io/", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
