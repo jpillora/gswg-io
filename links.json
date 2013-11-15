@@ -91,6 +91,10 @@
   { "id": "mdn", "title": "Mozilla Developer Network", "url": "https://developer.mozilla.org/en-US/", "tags": "" },
   { "id": "reintro-to-javascript", "title": "A re-introduction to JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript?redirectlocale=en-US&redirectslug=JavaScript%2FA_re-introduction_to_JavaScript", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
 
