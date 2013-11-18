@@ -93,7 +93,7 @@
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "github-webhooks", "title": "GitHub Webhooks", "url": "https://help.github.com/articles/post-receive-hooks", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
