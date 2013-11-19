@@ -90,11 +90,14 @@
   { "id": "js-books", "title": "JSbooks", "url": "http://jsbooks.revolunet.com/", "tags": "" },
   { "id": "mdn", "title": "Mozilla Developer Network", "url": "https://developer.mozilla.org/en-US/", "tags": "" },
   { "id": "reintro-to-javascript", "title": "A re-introduction to JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript?redirectlocale=en-US&redirectslug=JavaScript%2FA_re-introduction_to_JavaScript", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "phantomjs", "title": "PhantomJS", "url": "http://phantomjs.org/", "tags": "" },
+  { "id": "chai", "title": "Chai Assertion Library", "url": "http://chaijs.com/", "tags": "" },
+  { "id": "mocha-browser-example", "title": "Mocha Browser Example", "url": "http://visionmedia.github.io/mocha/example/tests.html", "tags": "" },
+  { "id": "ci-list", "title": "Comparison of continuous integration software", "url": "http://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software", "tags": "" },
   { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
   { "id": "github-webhooks", "title": "GitHub Webhooks", "url": "https://help.github.com/articles/post-receive-hooks", "tags": "" },
   { "id": "sample-plugin", "title": "A sample plugin providing a 'gswg' task", "url": "https://github.com/jpillora/gswg-examples/tree/master/5/04-sample-plugin", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
 
