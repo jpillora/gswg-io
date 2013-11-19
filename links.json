@@ -94,7 +94,7 @@
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
   { "id": "github-webhooks", "title": "GitHub Webhooks", "url": "https://help.github.com/articles/post-receive-hooks", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "sample-plugin", "title": "A sample plugin providing a 'gswg' task", "url": "https://github.com/jpillora/gswg-examples/tree/master/5/04-sample-plugin", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
 
