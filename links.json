@@ -97,6 +97,11 @@
   { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
   { "id": "github-webhooks", "title": "GitHub Webhooks", "url": "https://help.github.com/articles/post-receive-hooks", "tags": "" },
   { "id": "sample-plugin", "title": "A sample plugin providing a 'gswg' task", "url": "https://github.com/jpillora/gswg-examples/tree/master/5/04-sample-plugin", "tags": "" },
+  { "id": "npm-no-sudo", "title": "Techniques to install node and npm without having to sudo", "url": "https://gist.github.com/isaacs/579814", "tags": "" },
+  { "id": "package-json-validator", "title": "Package.json Validator", "url": "http://package-json-validator.com/", "tags": "" },
+  { "id": "jshintrc-example", "title": "A .jshintrc Example", "url": "https://raw.github.com/jshint/node-jshint/master/.jshintrc", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
