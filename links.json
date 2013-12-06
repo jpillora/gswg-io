@@ -100,8 +100,8 @@
   { "id": "npm-no-sudo", "title": "Techniques to install node and npm without having to sudo", "url": "https://gist.github.com/isaacs/579814", "tags": "" },
   { "id": "package-json-validator", "title": "Package.json Validator", "url": "http://package-json-validator.com/", "tags": "" },
   { "id": "jshintrc-example", "title": "A .jshintrc Example", "url": "https://raw.github.com/jshint/node-jshint/master/.jshintrc", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
+  { "id": "grunt-log", "title": "Grunt API: grunt.log", "url": "http://gruntjs.com/api/grunt.log", "tags": "" },
+  { "id": "git-resources", "title": "GitHub Guides on YouTube", "url": "http://www.youtube.com/user/GitHubGuides", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
