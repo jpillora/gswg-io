@@ -104,7 +104,7 @@
   { "id": "git-resources", "title": "GitHub Guides on YouTube", "url": "http://www.youtube.com/user/GitHubGuides", "tags": "" },
   { "id": "grunt-globbing", "title": "Grunt: Globbign Patterns", "url": "http://gruntjs.com/configuring-tasks#globbing-patterns", "tags": "" },
   { "id": "configuring-tasks", "title": "Grunt: Configuring Tasks", "url": "http://gruntjs.com/configuring-tasks", "tags": "" },
-  { "id": "node-download", "title": "Node.js Website", "url": "http://nodejs.org/download" },
+  { "id": "node-download", "title": "Node.js Download", "url": "http://nodejs.org/download" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
