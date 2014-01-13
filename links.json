@@ -102,6 +102,9 @@
   { "id": "jshintrc-example", "title": "A .jshintrc Example", "url": "https://raw.github.com/jshint/node-jshint/master/.jshintrc", "tags": "" },
   { "id": "grunt-log", "title": "Grunt API: grunt.log", "url": "http://gruntjs.com/api/grunt.log", "tags": "" },
   { "id": "git-resources", "title": "GitHub Guides on YouTube", "url": "http://www.youtube.com/user/GitHubGuides", "tags": "" },
+  { "id": "grunt-globbing", "title": "Grunt: Globbign Patterns", "url": "http://gruntjs.com/configuring-tasks#globbing-patterns", "tags": "" },
+  { "id": "configuring-tasks", "title": "Grunt: Configuring Tasks", "url": "http://gruntjs.com/configuring-tasks", "tags": "" },
+  { "id": "node-download", "title": "Node.js Website", "url": "http://nodejs.org/download" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
