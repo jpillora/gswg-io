@@ -101,7 +101,7 @@
   { "id": "package-json-validator", "title": "Package.json Validator", "url": "http://package-json-validator.com/", "tags": "" },
   { "id": "jshintrc-example", "title": "A .jshintrc Example", "url": "https://raw.github.com/jshint/node-jshint/master/.jshintrc", "tags": "" },
   { "id": "grunt-log", "title": "Grunt API: grunt.log", "url": "http://gruntjs.com/api/grunt.log", "tags": "" },
-  { "id": "git-resources", "title": "GitHub Guides on YouTube", "url": "http://www.youtube.com/user/GitHubGuides", "tags": "" },
+  { "id": "git-resources", "title": "\"Git Basics\" by GitHub Guides", "url": "http://www.youtube.com/watch?v=8oRjP8yj2Wo&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH", "tags": "" },
   { "id": "grunt-globbing", "title": "Grunt: Globbign Patterns", "url": "http://gruntjs.com/configuring-tasks#globbing-patterns", "tags": "" },
   { "id": "configuring-tasks", "title": "Grunt: Configuring Tasks", "url": "http://gruntjs.com/configuring-tasks", "tags": "" },
   { "id": "node-download", "title": "Node.js Download", "url": "http://nodejs.org/download" },
