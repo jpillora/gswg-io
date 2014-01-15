@@ -76,7 +76,7 @@
   { "id": "load-grunt-tasks", "title": "load-grunt-tasks", "url": "https://github.com/sindresorhus/load-grunt-tasks", "tags": "" },
   { "id": "osx", "title": "Apple - Mac OSX", "url": "http://www.apple.com/au/osx/", "tags": "" },
   { "id": "brew", "title": "Homebrew: The missing package manager for OS X", "url": "http://brew.sh/", "tags": "" },
-  { "id": "sublime", "title": "Sublime Text", "url": "http://www.sublimetext.com/", "tags": "" },
+  { "id": "sublime", "title": "Sublime Text 2", "url": "http://www.sublimetext.com/2", "tags": "" },
   { "id": "sourcetree", "title": "SourceTree: A free Git & Mercurial client for Windows or Mac.", "url": "http://www.sourcetreeapp.com/", "tags": "" },
   { "id": "chrome", "title": "Google Chrome", "url": "https://www.google.com/intl/en/chrome/browser/", "tags": "" },
   { "id": "chrome-devtools", "title": "Chrome DevTools", "url": "https://developers.google.com/chrome-developer-tools/", "tags": "" },
@@ -105,6 +105,12 @@
   { "id": "grunt-globbing", "title": "Grunt: Globbign Patterns", "url": "http://gruntjs.com/configuring-tasks#globbing-patterns", "tags": "" },
   { "id": "configuring-tasks", "title": "Grunt: Configuring Tasks", "url": "http://gruntjs.com/configuring-tasks", "tags": "" },
   { "id": "node-download", "title": "Node.js Download", "url": "http://nodejs.org/download" },
+  { "id": "grunt-mocha", "title": "Mocha Grunt Plugin", "url": "https://github.com/kmiyashiro/grunt-mocha", "tags": "" },
+  { "id": "markdown", "title": "Markdown Specification", "url": "http://daringfireball.net/projects/markdown/", "tags": "" },
+  { "id": "grunt-contrib-connect", "title": "Local Web Server Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-connect", "tags": "" },
+  { "id": "codecademy", "title": "Codecademy", "url": "http://www.codecademy.com/", "tags": "" },
+  { "id": "sublime-package-control", "title": "Install Package Control for Sublime Text 2", "url": "https://sublime.wbond.net/installation#st2", "tags": "" },
+  { "id": "grunt-devtools", "title": "Grunt inside Chrome DevTools", "url": "https://github.com/vladikoff/grunt-devtools", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" },
   { "id": "", "title": "", "url": "", "tags": "" }
 ]
