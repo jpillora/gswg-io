@@ -111,7 +111,6 @@
   { "id": "codecademy", "title": "Codecademy", "url": "http://www.codecademy.com/", "tags": "" },
   { "id": "sublime-package-control", "title": "Install Package Control for Sublime Text 2", "url": "https://sublime.wbond.net/installation#st2", "tags": "" },
   { "id": "grunt-devtools", "title": "Grunt inside Chrome DevTools", "url": "https://github.com/vladikoff/grunt-devtools", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" },
-  { "id": "", "title": "", "url": "", "tags": "" }
+  { "id": "jpillora", "title": "Jaime Pillora on GitHub", "url": "http://jpillora.com", "tags": "" }
 ]
 
