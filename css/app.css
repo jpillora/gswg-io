@@ -22,11 +22,22 @@ div {
 }
 
 /* line 16 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+.subtitle {
+  padding-bottom: 40px;
+}
+
+/* line 18 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+.subtitle a {
+  color: #ffcf79;
+  font-size: 60pt;
+}
+
+/* line 23 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loading {
   font-size: 30pt;
 }
 
-/* line 19 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 26 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup {
   padding-top: 60px;
   position: fixed;
@@ -36,9 +47,11 @@ div {
   left: 0;
   transition: opacity 1s ease-out;
   opacity: 0;
+  display: none;
 }
 
-/* line 28 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 36 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup.active {
+  display: block;
   opacity: 1;
 }

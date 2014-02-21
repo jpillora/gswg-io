@@ -32,6 +32,8 @@ run = (query) ->
        link.pattern and new RegExp(link.pattern).test query
       load link, query
       return
+  #no hit
+  ga 'send', 'event', 'Link Missing', query
   return
 
 check = ->

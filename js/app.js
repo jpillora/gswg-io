@@ -40,6 +40,7 @@
         return;
       }
     }
+    ga('send', 'event', 'Link Missing', query);
   };
 
   check = function() {

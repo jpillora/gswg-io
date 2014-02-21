@@ -1,4 +1,4 @@
 {
   "source": "~/.grunt-sources/web",
-  "repository": "https://github.com/jpillora/grunt-source-web"
+  "repository": "https://github.com/jpillora/grunt-source-web.git"
 }
