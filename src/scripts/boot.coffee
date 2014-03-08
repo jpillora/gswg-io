@@ -45,7 +45,9 @@ hashCheck = ->
   return
 
 loadApp = ->
-  if loadApp.ed or not window.yepnope
+  if loadApp.ed
+    return
+  if not window.yepnope
     setTimeout loadApp, 100
     return
   yepnope

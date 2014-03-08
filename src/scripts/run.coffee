@@ -1,6 +1,5 @@
 ngdeps.push (App) ->
   App.run ($rootScope, $timeout) ->
-    $timeout (-> $rootScope.loaded = true), 1000
 
     $rootScope.stores = [
       { id: "amazon-com", url:"http://www.amazon.com/dp/1783980621", name:"Amazon.com" }
@@ -25,4 +24,7 @@ ngdeps.push (App) ->
 
     $rootScope.visit = (url) ->
       window.open url, "_blank"
+
+    #important!
+    $timeout (-> $rootScope.loaded = true), 1000
     return
