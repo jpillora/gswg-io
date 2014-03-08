@@ -11,8 +11,9 @@ html
     link(href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One',rel='stylesheet',type='text/css')
     link(rel="stylesheet", href="css/app.css")
     style.
+      html { color: #fff }
       [ng-cloak] { display: none }
-  
+
   body(ng-app="gswg", ng-class="{loaded:loaded}")
 
     .sidebar(ng-controller="SidebarController")
@@ -106,7 +107,7 @@ html
         h4 Where can I send my praise or my criticism?
         p
           | If you can spare the time, please place all remarks in a <a ng-href="{{amazonReviews}}">
-          | review on Amazon</a>, otherwise you can send me an email at this address:  
+          | review on Amazon</a>,<br>otherwise you can send email to this address:  
           | <a ng-href="mailto:{{email}}">{{email}}</a>.
 
       .ui.stacked.segment
