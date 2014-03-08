@@ -1,4 +1,6 @@
 {
   "source": "~/.grunt-sources/web",
-  "repository": "https://github.com/jpillora/grunt-source-web.git"
+  "repository": "https://github.com/jpillora/grunt-source-web.git",
+  "angular": true,
+  "htmlmin": false
 }

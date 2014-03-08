@@ -1,0 +1,64 @@
+
+.main
+  margin-left 1500px
+  overflow-x hidden
+  overflow-y scroll
+  -webkit-overflow-scrolling: touch
+  height 100%
+  padding 0
+
+.loaded .main
+  margin-left 150px
+  font-family Helvetica
+  .container
+    position relative
+    height 100%
+    padding 20px
+    box-sizing: border-box;
+    .hyperlinks
+      // height 200px
+      // overflow-y auto
+      .pattern
+        display none
+      .hyperlink .text
+        overflow hidden
+        width 250px
+        text-overflow ellipsis
+      .limit.button
+        position absolute
+        top 20px
+        right 20px
+
+    img.cover
+      width: 100px
+      float: left
+      margin-right: 15px
+      box-shadow: 0px 0px 4px 0px #333
+
+    .store.item
+      text-align center
+      min-height 0px
+      width 120px
+      margin-bottom 5px
+
+    .faq,
+    .extras
+      .message
+        padding-left 40px
+        font-style italic
+      p.link
+        padding-left 20px
+      a
+        color darkGruntOrange
+
+    .footer
+      color #fff
+      text-align right
+      padding-bottom 10px
+
+@media (max-width : 480px)
+  body.loaded
+    .fork
+      display none
+    .main
+      margin-left 0px

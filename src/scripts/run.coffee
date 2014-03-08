@@ -25,5 +25,4 @@ ngdeps.push (App) ->
 
     $rootScope.visit = (url) ->
       window.open url, "_blank"
-
     return

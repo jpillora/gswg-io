@@ -1,0 +1,55 @@
+
+.sidebar
+  text-align center
+  float left
+  width 100%
+  height 100%
+  overflow hidden
+  .logo
+    height 250px
+  .cover img
+    padding-top 10px
+    height 309px
+    width 250px
+  .title
+    padding-bottom 10px
+    .big
+      font-size 40pt
+    .small
+      font-size 30pt
+
+  .author .link
+    color lightGruntOrange
+    text-decoration underline
+  .social
+    padding 30px
+    opacity 0
+
+.loaded .sidebar
+  width 1%
+  min-width 150px
+  .logo
+    height 150px
+  .title
+    .big
+      font-size 20pt
+    .small
+      font-size 15pt
+  .link a
+    font-size 20pt
+  .social
+    opacity 1
+
+@media (max-width : 480px)
+  body
+    &.loaded .sidebar
+      min-width 0px
+      width 1px
+    .sidebar
+      .logo
+        height 150px
+      .title
+        .big
+          font-size 30pt
+        .small
+          font-size 25pt
