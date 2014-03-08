@@ -11,11 +11,13 @@
     <link rel="icon" type="image/x-icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjBFBBs9WHIgR2naJVaF+SVWhfohSm3iHUFddxUwRQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFAR1CXsEhSWv+Kqr4/yqq+P8qqvj/Kqr4/yFKbP8gSWnRFS9FAQAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFETxRZdNGXXP8KmCK/ytKZP8qqvj/Kqr4/ytKZP8qYIr/Rl5z/jxRZdMVMEURAAAAAAAAAAAAAAAAAAAAAEldcMm/xMj/uMLL/ytKZP8rerP/K3qz/yt6s/8rerP/LEpk/7jByv+/xMj/SV1wyQAAAAAAAAAAAAAAAAAAAABYa33qUmZ68TtkifsqW4b/K5LV/yqq+P8qqvj/K5HV/ypbhv87ZIr/Umd881hrfeoAAAAAAAAAAAAAAAAAAAAAVWh8tj1TZ4YpZZ//Kqr4/yt6s/8rqvj/Kqr4/yt5s/8qqvj/Kmek/z5ZcZFVaXy2AAAAAAAAAAAAAAAAAAAAABUvRQEZM0kkKWWf/yqq+P8rktX/Kqr4/yqq+P8rkdX/Kqr4/ylln/8cOVInFTBFAQAAAAAAAAAAAAAAAAAAAAAZNk4OIUls0illn/8rqvn/K6r5/yuq+f8rqvn/K6r5/yyn9v8pZZ//IEls0BUwRQ0AAAAAAAAAAAAAAAAAAAAAH0Vo6Clln/8sp/b/LXCr/y1Ud/8rqvn/Kqr4/y1UeP8tcKv/LKf2/ylln/8gSGrtAAAAAAAAAAAAAAAAAAAAAB9EZfEpZZ//QV56/97e3v8uWoP/K6r5/yuq+f8uW4P/3t7e/0Bdef8pZZ//H0Rm8wAAAAAAAAAAAAAAAAAAAAAcPVhaJluG/iZNbv8tcKv/K6b2/yt8vf8rfL3/K6f3/y1wq/8mTG3/JluG/x1AXF0AAAAAAAAAAAAAAAAAAAAAGzxXhSt8tf8rqvn/K6r5/yt9uf8qqvj/K6r5/yt+uf8rqvn/K6r5/yt7tP8hTG6kAAAAAAAAAAAAAAAAAAAAABs8Vp4kVXvtK6r5/yuq+f8rqvn/K6r5/yuq+f8rqvn/K6r5/yuq+f8kVnvwH0dltQAAAAAAAAAAAAAAAAAAAAAWMEUCFjJJ7Suq+f8aO1X4JVh/8St5sP8rerD/JVl/9Rs7Vvkrqvn/FzJJ7RUwRQIAAAAAAAAAAAAAAAAAAAAAFzJJ0xYySP0cPVf+FzJJ9xUvRa0VL0X9FS9F/hUwRaUWMkj3HD1X/hcySf0WMknTAAAAAAAAAAAAAAAAAAAAABUvRSMVL0WvFjJIlxUwRQQVL0UiFS9FYxUvRZkVL0UzFS9FBBYySJcVL0WvFTBFIwAAAAAAAAAA8A8AAOAHAADAAwAAwAMAAMADAADAA/C/wAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAA==">
     <link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/app.css">
+    <style>[ng-cloak] { display: none }</style>
   </head>
-  <body>
-    <div class="logo">
+  <body ng-app="gswg" ng-class="{loaded:loaded}">
+    <div ng-controller="SidebarController" class="sidebar">
+      <div class="logo">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   width="360px" height="334.99px" viewBox="0 0 360 334.99" enable-background="new 0 0 360 334.99" xml:space="preserve">
+   width="100%" height="100%" viewBox="0 0 360 334.99" enable-background="new 0 0 360 334.99" xml:space="preserve">
 <g id="Layer_2" display="none">
   <g id="O3btSA_1_" display="inline">
     
@@ -306,14 +308,217 @@
 </g>
 </svg>
 </div>
-    <div class="title">Getting Started with Grunt</div>
-    <div class="subtitle"><a href="http://www.packtpub.com/sites/default/files/9781783980628_Chapter_01.pdf">Out now</a></div>
+      <div class="title">
+        <div class="big">Getting Started with Grunt:</div><br>
+        <div class="small">The JavaScript Task Runner</div>
+      </div>
+      <div class="author">
+        <p>by <a ng-href="http://jpillora.com" class="link">Jaime Pillora</a></p>
+      </div>
+    </div>
+    <div class="main">
+      <div ng-cloak class="container"><a style="position: absolute; top: 0; right: 0; border: 0; z-index:1;" ng-href="https://github.com/jpillora/gswg-io" class="fork"><img src="https://github-camo.global.ssl.fastly.net/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+        <div class="ui stacked segment">
+          <h2>Getting Started with Grunt: The JavaScript Task Runner</h2>
+          <div class="content"><img src="img/cover2.jpg" class="cover">
+            <p>Modern web browsers are fast becoming the application platform of choice. Grunt, along with its wide range of plugins, provides a simple way of managing the large number of build tasks required to maintain a sophisticated web application.</p>
+            <p>Getting Started with Grunt: The JavaScript Task Runner is an example driven step-by-step guide to help you become an effective Grunt power user. You quickly learn how to install, configure, and run Grunt. You then go on to understand how to use third-party Grunt plugins and create your own Grunt tasks that cater to your particular needs.</p>
+            <p>This book enables you to create your own Grunt environments and fully utilize Grunt’s powerful feature set to effectively solve your custom build requirements.</p>
+          </div>
+        </div>
+        <div ng-controller="SearchController" class="ui stacked hyperlinks segment"><a ng-cloak ng-click="limit = limit == 5 ? 1000 : 5" ng-bind="'Show '+(limit == 5 ? 'All' : '5')" class="ui tiny orange limit button"></a>
+          <h2>Hyperlink Search</h2>
+          <div class="ui fluid icon input">
+            <input type="text" placeholder="Filter hyperlinks" ng-model="query" ng-change="filterChange()"><i class="search icon"></i>
+          </div>
+          <table class="ui inverted grunt-orange table segment">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th class="hyperlink">URL</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr ng-repeat="l in links | filter:filterLink | limitTo:limit" ng-click="gotoLink(l)">
+                <td>#{{ l.id }}</td>
+                <td>{{ l.title }}</td>
+                <td class="hyperlink">
+                  <div class="text">{{ l.url }}</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="ui stacked faq segment">
+          <h2>FAQ</h2>
+          <h4>Where can I buy the book?</h4>
+          <div class="ui items">
+            <div ng-repeat="s in stores" class="store item"><a ng-href="{{ s.url}}" title="{{ s.name }}" class="content"><img ng-src="img/{{ s.id }}.png" title="{{ s.name }}"></a></div>
+          </div>
+          <div class="message">If you enjoyed the book, please consider <a ng-href="{{amazonReviews}}">rating it on Amazon</a></div>
+          <h4>Where can I download the code examples?</h4>
+          <p>Please visit the book examples Github repository here:
+            <p class="link"><a ng-href="{{examplesRepo}}">{{examplesRepo}}</a></p>or you can directly download the .zip here:
+            <p class="link"><a ng-href="{{examplesZip}}">{{examplesZip}}</a></p>
+          </p>
+          <h4>Where can I report issues with the book or the code examples?</h4>
+          <p>Please post all issues relating to the book here:
+            <p class="link"><a ng-href="{{examplesIssues}}">{{examplesIssues}}</a></p>
+          </p>
+          <h4>Where can I send my praise or my criticism?</h4>
+          <p>
+            If you can spare the time, please place all remarks in a <a ng-href="{{amazonReviews}}">
+            review on Amazon</a>, otherwise you can send me an email at this address:  
+            <a ng-href="mailto:{{email}}">{{email}}</a>.
+          </p>
+        </div>
+        <div class="ui stacked segment">
+          <h2>The Author</h2>
+          <div class="content">
+            <p>Jaime Pillora is a passionate full-stack JavaScript developer, an open source advocate and contributor, and is co-founder and CTO of Luma Networks, a well-funded networking startup in Sydney, Australia.</p>
+            <p>Jaime has always been interested in all things computer science, and from a young age, he began to devote his time and effort to learning and perfecting his knowledge in the field. Jaime holds a Bachelor of Computer Science from the University of New South Wales. In all of his work, Jaime strives to reduce technical debt while maintaining maximum efficiency; this is done through software engineering best practices, combined with using the best tools for the given situation. Grunt is one such tool, which is utilized in every frontend project. Jaime's interest in Grunt began early on in his development career and he has since become a renowned expert.</p>
+            <p>Jaime has been working as a frontend JavaScript developer since 2008, and a backend JavaScript developer utilizing Node.js since 2011. Currently, Jaime leads all software development at Luma Networks, who is implementing software-defined networking on commodity hardware with full-stack JavaScript.</p>
+          </div>
+        </div>
+        <div class="ui stacked extras segment">
+          <h2>Extras</h2>
+          <div class="content">
+            <p>
+              This website is statically generated using the techniques in this book and is freely hosted on Github Pages.
+              The source code is available <a ng-href="{{gswgRepo}}">here</a> and it was built using
+              <a ng-href="{{gsrcRepo}}">Grunt Source</a> and <a ng-href="{{gsrcWebRepo}}"> Grunt Source Web</a>.
+            </p>
+          </div>
+        </div>
+        <div class="ui basic footer segment"> 
+        </div>
+      </div>
+    </div>
     <div id="popup">
       <div class="loading">Loading...</div>
       <div id="link-title"></div>
       <div id="link-url"></div>
     </div>
+    <script>window.LINKS = [
+  { "id": "grunt", "title": "Grunt Website", "url": "http://gruntjs.com" },
+  { "id": "npm", "title": "npm", "url": "http://npmjs.org", "tags": "node package manager" },
+  { "id": "node", "title": "Node.js Website", "url": "http://nodejs.org" },
+  { "id": "examples", "title": "Getting Started with Grunt - Code Examples", "url": "https://github.com/jpillora/gswg-examples" },
+  { "id": "dry", "title": "Wikipedia - \"Don't repeat yourself\"", "url": "http://en.wikipedia.org/wiki/Don't_repeat_yourself", "tags": "programming best-practice" },
+  { "id": "github", "title": "Github", "url": "https://www.github.com" },
+  { "id": "git", "title": "Getting Started with Git", "url": "http://git-scm.com/book/en/Getting-Started-Git-Basics", "tags": "version-control" },
+  { "id": "jslint", "title": "JSLint", "url": "http://www.jslint.com", "tags": "static-analysis" },
+  { "id": "jslint-options", "title": "JSLint Options", "url": "http://www.jslint.com/lint.html#options", "tags": "static-analysis" },
+  { "id": "the-good-parts", "title": "JavaScript The Good Parts by Douglas Crockford", "url": "http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742", "tags": "recommended-reading" },
+  { "id": "jshint", "title": "JSHint", "url": "http://jshint.com/", "tags": "static-analysis" },
+  { "id": "jshint-options", "title": "JSHint Options", "url": "http://jshint.com/docs/#enforcing_options", "tags": "static-analysis" },
+  { "id": "grunt-contrib-jshint", "title": "JSHint Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-jshint", "tags": "gruntplugin" },
+  { "id": "coffeescript", "title": "CoffeeScript Website", "url": "http://coffeescript.org", "tags": "transcompiler" },
+  { "id": "grunt-contrib-coffee", "title": "CoffeeScript Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-coffee", "tags": "gruntplugin" },
+  { "id": "jade", "title": "Jade", "url": "http://jade-lang.com", "tags": "transcompiler" },
+  { "id": "grunt-contrib-jade", "title": "Jade Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-jade", "tags": "gruntplugin" },
+  { "id": "stylus", "title": "Stylus", "url": "http://learnboost.github.io/stylus", "tags": "transcompiler" },
+  { "id": "grunt-contrib-stylus", "title": "Stylus Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-stylus", "tags": "gruntplugin" },
+  { "id": "haml", "title": "Haml", "url": "http://haml.info", "tags": "transcompiler" },
+  { "id": "grunt-haml", "title": "Haml Grunt Plugin", "url": "https://github.com/concordusapps/grunt-haml", "tags": "gruntplugin" },
+  { "id": "sass", "title": "Sass", "url": "http://sass-lang.com", "tags": "transcompiler" },
+  { "id": "grunt-contrib-sass", "title": "Sass Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-sass", "tags": "gruntplugin" },
+  { "id": "less", "title": "LESS", "url": "http://lesscss.org", "tags": "transcompiler" },
+  { "id": "grunt-contrib-less", "title": "LESS Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-less", "tags": "gruntplugin" },
+  { "id": "loading-time-study", "title": "KISSmetrics - Loading Time", "url": "http://blog.kissmetrics.com/loading-time/" },
+  { "id": "grunt-contrib-uglify", "title": "UglifyJS Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-uglify", "tags": "gruntplugin" },
+  { "id": "grunt-contrib-cssmin", "title": "CSS Minifier Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-cssmin", "tags": "gruntplugin" },
+  { "id": "grunt-contrib-htmlmin", "title": "HTML Minifier Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-htmlmin", "tags": "gruntplugin" },
+  { "id": "grunt-contrib-concat", "title": "Concatenation Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-concat", "tags": "gruntplugin" },
+  { "id": "grunt-contrib-watch", "title": "File Watcher Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-watch", "tags": "gruntplugin" },
+  { "id": "jsftp", "title": "Node.js FTP Client (jsftp)", "url": "https://github.com/sergi/jsftp", "tags": "module" },
+  { "id": "grunt-ftp-deploy", "title": "FTP Grunt Plugin", "url": "https://github.com/zonak/grunt-ftp-deploy", "tags": "gruntplugin" },
+  { "id": "pureftpd", "title": "PureFTPd", "url": "http://www.pureftpd.org/", "tags": "ftp" },
+  { "id": "filezilla-server", "title": "FileZilla Server", "url": "https://filezilla-project.org/", "tags": "ftp" },
+  { "id": "grunt-ssh", "title": "SFTP and SSH Grunt Plugin", "url": "https://github.com/andrewrjones/grunt-ssh" },
+  { "id": "grunt-aws", "title": "AWS (S3) Grunt Plugin", "url": "https://github.com/jpillora/grunt-aws" },
+  { "id": "node-presentation", "title": "Node.js by Ryan Dahl 2009", "url": "http://www.youtube.com/watch?v=ztspvPYybIY", "tags": "video" },
+  { "id": "node-with-package-manager", "title": "Installing Node.js with a package manager", "url": "https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager", "tags": "" },
+  { "id": "commonjs", "title": "CommonJS Specification v1.1.1", "url": "http://wiki.commonjs.org/wiki/Modules/1.1.1", "tags": "" },
+  { "id": "node-modules", "title": "Node Modules API", "url": "http://nodejs.org/api/modules.html", "tags": "" },
+  { "id": "npm-what-is-a-package", "title": "npm - What is a package?", "url": "https://npmjs.org/doc/faq.html#What-is-a-package", "tags": "" },
+  { "id": "npm-what-is-a-module", "title": "npm - What is a module?", "url": "https://npmjs.org/doc/faq.html#What-is-a-module", "tags": "" },
+  { "id": "semver", "title": "Semantic Versioning Website", "url": "http://semver.org/", "tags": "" },
+  { "id": "grunt-getting-started", "title": "Grunt Website - Getting Started", "url": "http://gruntjs.com/getting-started", "tags": "" },
+  { "id": "grunt-api", "title": "Grunt API", "url": "http://gruntjs.com/api/grunt", "tags": "" },
+  { "id": "grunt-options", "title": "Grunt Options API", "url": "http://gruntjs.com/api/grunt.option", "tags": "" },
+  { "id": "grunt-source-code", "title": "Grunt Source Code", "url": "https://github.com/gruntjs/grunt/tree/master/lib/grunt", "tags": "" },
+  { "id": "node-api", "title": "Node.js API Documentation", "url": "http://nodejs.org/api/", "tags": "" },
+  { "id": "grunt-task-object", "title": "Grunt - Inside Tasks", "url": "https://github.com/gruntjs/grunt/wiki/Inside-Tasks", "tags": "" },
+  { "id": "this-operator", "title": "MDN JavaScript Reference - this", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this", "tags": "" },
+  { "id": "grunt-plugins", "title": "Grunt Plugins", "url": "http://gruntjs.com/plugins", "tags": "" },
+  { "pattern": "npm-package:([\\w-]+)", "title": "npm package \"$1\" ", "url": "https://npmjs.org/package/$1", "tags": "" },
+  { "id": "iife", "title": "Immediately-Invoked Function Expression", "url": "http://benalman.com/news/2010/11/immediately-invoked-function-expression/", "tags": "" },
+  { "id": "what-is-this", "title": "Tim Caswell - What is \"this\"", "url": "http://howtonode.org/what-is-this", "tags": "" },
+  { "id": "jade-include", "title": "Jade Documentation - Include", "url": "https://github.com/visionmedia/jade/blob/master/jade-language.md#includes", "tags": "" },
+  { "id": "uglifyjs", "title": "UglifyJS", "url": "https://github.com/mishoo/UglifyJS2", "tags": "" },
+  { "id": "grunt-contrib-uglify-conditional-compilation", "title": "UglifyJS Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-uglify#conditional-compilation", "tags": "gruntplugin" },
+  { "id": "grunt-templates", "title": "Grunt: Configuring Tasks: Templates", "url": "http://gruntjs.com/configuring-tasks#templates", "tags": "" },
+  { "id": "clean-css", "title": "Clean-css", "url": "https://github.com/GoalSmashers/clean-css", "tags": "cssmin min minifier" },
+  { "id": "html-minifier", "title": "html-minifier", "url": "https://github.com/kangax/html-minifier", "tags": "htmlmin min minifier" },
+  { "id": "experimenting-with-html-minifier", "title": "Experimenting with html minifier", "url": "http://perfectionkills.com/experimenting-with-html-minifier/", "tags": "" },
+  { "id": "watch-livereload", "title": "Watch Grunt Plugin - LiveReload", "url": "https://github.com/gruntjs/grunt-contrib-watch#optionslivereload", "tags": "gruntplugin" },
+  { "id": "chrome-livereload", "title": "LiveReload for Chrome", "url": "https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en", "tags": "" },
+  { "id": "flow", "title": "Wikipedia - Flow (Psychology)", "url": "http://en.wikipedia.org/wiki/Flow_(psychology)", "tags": "" },
+  { "id": "blog-on-flow", "title": "Where do These People Get Their (Unoriginal) Ideas? by Joel Spolsky", "url": "http://www.joelonsoftware.com/articles/fog0000000068.html", "tags": "" },
+  { "id": "talk-on-flow", "title": "Mihaly Csikszentmihalyi: Flow, the secret to happiness", "url": "http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow.html", "tags": "" },
+  { "pattern": "jpillora-app-([\\w-]+)", "title": "S3 Deployment to 'jpillora-app-$1'", "url": "http://s3.amazonaws.com/jpillora-app-$1/app.html", "tags": "" },
+  { "id": "angular", "title": "AngularJS: HTML enhanced for web apps!", "url": "http://angularjs.org/", "tags": "" },
+  { "id": "angular-screencasts", "title": "egghead.io: Learn AngularJS with Tutorial Videos & Training", "url": "http://egghead.io/", "tags": "" },
+  { "id": "ember", "title": "Ember.js: A framework for creating ambitious web applications", "url": "http://emberjs.com/", "tags": "" },
+  { "id": "grunt-stats", "title": "Grunt Download Statistics", "url": "http://npm-stat.vorb.de/charts.html?package=grunt#months", "tags": "" },
+  { "id": "mocha", "title": "Mocha", "url": "http://visionmedia.github.io/mocha/", "tags": "" },
+  { "id": "grunt-concurrent", "title": "grunt-concurrent", "url": "https://github.com/sindresorhus/grunt-concurrent", "tags": "" },
+  { "id": "load-grunt-tasks", "title": "load-grunt-tasks", "url": "https://github.com/sindresorhus/load-grunt-tasks", "tags": "" },
+  { "id": "osx", "title": "Apple - Mac OSX", "url": "http://www.apple.com/au/osx/", "tags": "" },
+  { "id": "brew", "title": "Homebrew: The missing package manager for OS X", "url": "http://brew.sh/", "tags": "" },
+  { "id": "sublime", "title": "Sublime Text 2", "url": "http://www.sublimetext.com/2", "tags": "" },
+  { "id": "sourcetree", "title": "SourceTree: A free Git & Mercurial client for Windows or Mac.", "url": "http://www.sourcetreeapp.com/", "tags": "" },
+  { "id": "chrome", "title": "Google Chrome", "url": "https://www.google.com/intl/en/chrome/browser/", "tags": "" },
+  { "id": "chrome-devtools", "title": "Chrome DevTools", "url": "https://developers.google.com/chrome-developer-tools/", "tags": "" },
+  { "id": "crockford-on-javascript", "title": "Crockford on JavaScript", "url": "http://www.youtube.com/playlist?list=PL7664379246A246CB", "tags": "" },
+  { "id": "the-good-parts-talk", "title": "Talk on 'JavaScripts: The Good Parts' at Etsy", "url": "http://www.livestream.com/etsy/video?clipId=pla_1463e546-47ed-4a93-b59a-bd52b236e8b8", "tags": "" },
+  { "id": "eloquent-javascript", "title": "Eloquent JavaScript - A Modern Introduction to Programming", "url": "http://eloquentjavascript.net/", "tags": "" },
+  { "id": "webstorm", "title": "WebStorm — The smartest JavaScript IDE", "url": "http://www.jetbrains.com/webstorm/v", "tags": "" },
+  { "id": "yeoman", "title": "Yeoman\nMODERN WORKFLOWS FOR MODERN WEBAPPS", "url": "http://yeoman.io/", "tags": "" },
+  { "id": "javascript-design-patterns", "title": "Learning JavaScript Design Patterns", "url": "http://addyosmani.com/resources/essentialjsdesignpatterns/book/", "tags": "" },
+  { "id": "code-academy", "title": "JavaScript | Code Academy", "url": "http://www.codecademy.com/tracks/javascript", "tags": "" },
+  { "id": "js-books", "title": "JSbooks", "url": "http://jsbooks.revolunet.com/", "tags": "" },
+  { "id": "mdn", "title": "Mozilla Developer Network", "url": "https://developer.mozilla.org/en-US/", "tags": "" },
+  { "id": "reintro-to-javascript", "title": "A re-introduction to JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript?redirectlocale=en-US&redirectslug=JavaScript%2FA_re-introduction_to_JavaScript", "tags": "" },
+  { "id": "phantomjs", "title": "PhantomJS", "url": "http://phantomjs.org/", "tags": "" },
+  { "id": "chai", "title": "Chai Assertion Library", "url": "http://chaijs.com/", "tags": "" },
+  { "id": "mocha-browser-example", "title": "Mocha Browser Example", "url": "http://visionmedia.github.io/mocha/example/tests.html", "tags": "" },
+  { "id": "ci-list", "title": "Comparison of continuous integration software", "url": "http://en.wikipedia.org/wiki/Comparison_of_continuous_integration_software", "tags": "" },
+  { "id": "examples-issues", "title": "Getting Started with Grunt - Code Examples - Issues", "url": "https://github.com/jpillora/gswg-examples/issues" },
+  { "id": "github-webhooks", "title": "GitHub Webhooks", "url": "https://help.github.com/articles/post-receive-hooks", "tags": "" },
+  { "id": "sample-plugin", "title": "A sample plugin providing a 'gswg' task", "url": "https://github.com/jpillora/gswg-examples/tree/master/5/04-sample-plugin", "tags": "" },
+  { "id": "npm-no-sudo", "title": "Techniques to install node and npm without having to sudo", "url": "https://gist.github.com/isaacs/579814", "tags": "" },
+  { "id": "package-json-validator", "title": "Package.json Validator", "url": "http://package-json-validator.com/", "tags": "" },
+  { "id": "jshintrc-example", "title": "A .jshintrc Example", "url": "https://raw.github.com/jshint/node-jshint/master/.jshintrc", "tags": "" },
+  { "id": "grunt-log", "title": "Grunt API: grunt.log", "url": "http://gruntjs.com/api/grunt.log", "tags": "" },
+  { "id": "git-resources", "title": "\"Git Basics\" by GitHub Guides", "url": "http://www.youtube.com/watch?v=8oRjP8yj2Wo&list=PLg7s6cbtAD165JTRsXh8ofwRw0PqUnkVH", "tags": "" },
+  { "id": "grunt-globbing", "title": "Grunt: Globbign Patterns", "url": "http://gruntjs.com/configuring-tasks#globbing-patterns", "tags": "" },
+  { "id": "configuring-tasks", "title": "Grunt: Configuring Tasks", "url": "http://gruntjs.com/configuring-tasks", "tags": "" },
+  { "id": "node-download", "title": "Node.js Download", "url": "http://nodejs.org/download" },
+  { "id": "grunt-mocha", "title": "Mocha Grunt Plugin", "url": "https://github.com/kmiyashiro/grunt-mocha", "tags": "" },
+  { "id": "markdown", "title": "Markdown Specification", "url": "http://daringfireball.net/projects/markdown/", "tags": "" },
+  { "id": "grunt-contrib-connect", "title": "Local Web Server Grunt Plugin", "url": "https://github.com/gruntjs/grunt-contrib-connect", "tags": "" },
+  { "id": "codecademy", "title": "Codecademy", "url": "http://www.codecademy.com/", "tags": "" },
+  { "id": "sublime-package-control", "title": "Install Package Control for Sublime Text 2", "url": "https://sublime.wbond.net/installation#st2", "tags": "" },
+  { "id": "grunt-devtools", "title": "Grunt inside Chrome DevTools", "url": "https://github.com/vladikoff/grunt-devtools", "tags": "" },
+  { "id": "jpillora", "title": "Jaime Pillora on GitHub", "url": "http://jpillora.com", "tags": "" }
+]
+
+</script>
     <script src="//www.google-analytics.com/analytics.js"></script>
     <script src="js/app.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/yepnope/1.5.4/yepnope.min.js" defer></script>
   </body>
 </html>

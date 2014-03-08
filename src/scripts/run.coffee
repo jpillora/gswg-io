@@ -1,56 +1,28 @@
+ngdeps.push (App) ->
+  App.run ($rootScope, $timeout) ->
+    $timeout (-> $rootScope.loaded = true), 1000
 
-ga 'create', 'UA-38709761-11', window.location.hostname
-ga 'send', 'pageview'
+    $rootScope.stores = [
+      { id: "amazon-com", url:"http://www.amazon.com/dp/1783980621", name:"Amazon.com" }
+      { id: "amazon-co-uk", url:"http://www.amazon.co.uk/dp/1783980621", name:"Amazon UK" }
+      { id: "barnes-noble", url:"http://www.barnesandnoble.com/s/?keyword=Getting+Started+with+Grunt%3A+The+JavaScript+Task+Runner", name:"Barnes and Noble" }
+      { id: "safari", url:"http://my.safaribooksonline.com/9781783980628?cid=packt-cat-readnow-9781783980628", name:"Safari Books Online" }
+      { id: "oreilly", url:"http://shop.oreilly.com/product/9781783980628.do", name:"O'Reilly" }
+      { id: "packt", url:"http://www.packtpub.com/getting-started-with-grunt-the-javascript-task-runner/book", name:"Packt Publishing" }
+    ]
 
-LINKS = null
+    $rootScope.email = 'gswg@jpillora.com'
+    $rootScope.ghprofile = 'https://github.com/jpillora'
+    $rootScope.examplesRepo = $rootScope.ghprofile+'/gswg-examples'
+    $rootScope.examplesIssues = $rootScope.examplesRepo+'/issues'
+    $rootScope.examplesZip = $rootScope.examplesRepo+'/archive/master.zip'
+    $rootScope.gswgRepo = $rootScope.ghprofile+'/gswg-examples'
+    $rootScope.gsrcRepo = $rootScope.ghprofile+'/grunt-source'
+    $rootScope.gsrcWebRepo = $rootScope.gsrcRepo+'-web'
 
-$ = (id) ->
-  document.getElementById id
+    $rootScope.amazonReviews = 'http://www.amazon.com/dp/1783980621#cm_cr_dpwidget'
 
-load = (link, query) ->
-  load.loading = true
-  if link.pattern
-    re = new RegExp(link.pattern)
-    link.url = query.replace re, link.url
-    link.title = query.replace re, link.title
-  #track
-  ga 'send', 'event', 'Link', link.title, link.url
-  #display popup
-  $('link-title').innerHTML = link.title
-  $('link-url').innerHTML = link.url
-  $('popup').className = 'active'
-  #show for 2seconds
-  setTimeout ->
-    window.location.href = link.url
-  , 2000
-  return
+    $rootScope.visit = (url) ->
+      window.open url, "_blank"
 
-run = (query) ->
-  return if not query or load.loading
-  for link in LINKS
-    if link.id is query or
-       link.pattern and new RegExp(link.pattern).test query
-      load link, query
-      return
-  #no hit
-  ga 'send', 'event', 'Link Missing', query
-  return
-
-check = ->
-  query = window.location.hash.substr(1)
-  return if query is check.last
-  check.last = query
-  run query
-
-start = ->
-  check()
-  setInterval check, 100
-
-xhr = new XMLHttpRequest
-xhr.open 'GET', 'links.json'
-xhr.onreadystatechange = ->
-  if xhr.readyState is 4
-    LINKS = JSON.parse xhr.responseText
-    start()
-xhr.send()
-
+    return
