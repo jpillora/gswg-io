@@ -11,7 +11,10 @@
     <link rel="icon" type="image/x-icon" href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAABMLAAATCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFjBFBBs9WHIgR2naJVaF+SVWhfohSm3iHUFddxUwRQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFAR1CXsEhSWv+Kqr4/yqq+P8qqvj/Kqr4/yFKbP8gSWnRFS9FAQAAAAAAAAAAAAAAAAAAAAAAAAAAFTBFETxRZdNGXXP8KmCK/ytKZP8qqvj/Kqr4/ytKZP8qYIr/Rl5z/jxRZdMVMEURAAAAAAAAAAAAAAAAAAAAAEldcMm/xMj/uMLL/ytKZP8rerP/K3qz/yt6s/8rerP/LEpk/7jByv+/xMj/SV1wyQAAAAAAAAAAAAAAAAAAAABYa33qUmZ68TtkifsqW4b/K5LV/yqq+P8qqvj/K5HV/ypbhv87ZIr/Umd881hrfeoAAAAAAAAAAAAAAAAAAAAAVWh8tj1TZ4YpZZ//Kqr4/yt6s/8rqvj/Kqr4/yt5s/8qqvj/Kmek/z5ZcZFVaXy2AAAAAAAAAAAAAAAAAAAAABUvRQEZM0kkKWWf/yqq+P8rktX/Kqr4/yqq+P8rkdX/Kqr4/ylln/8cOVInFTBFAQAAAAAAAAAAAAAAAAAAAAAZNk4OIUls0illn/8rqvn/K6r5/yuq+f8rqvn/K6r5/yyn9v8pZZ//IEls0BUwRQ0AAAAAAAAAAAAAAAAAAAAAH0Vo6Clln/8sp/b/LXCr/y1Ud/8rqvn/Kqr4/y1UeP8tcKv/LKf2/ylln/8gSGrtAAAAAAAAAAAAAAAAAAAAAB9EZfEpZZ//QV56/97e3v8uWoP/K6r5/yuq+f8uW4P/3t7e/0Bdef8pZZ//H0Rm8wAAAAAAAAAAAAAAAAAAAAAcPVhaJluG/iZNbv8tcKv/K6b2/yt8vf8rfL3/K6f3/y1wq/8mTG3/JluG/x1AXF0AAAAAAAAAAAAAAAAAAAAAGzxXhSt8tf8rqvn/K6r5/yt9uf8qqvj/K6r5/yt+uf8rqvn/K6r5/yt7tP8hTG6kAAAAAAAAAAAAAAAAAAAAABs8Vp4kVXvtK6r5/yuq+f8rqvn/K6r5/yuq+f8rqvn/K6r5/yuq+f8kVnvwH0dltQAAAAAAAAAAAAAAAAAAAAAWMEUCFjJJ7Suq+f8aO1X4JVh/8St5sP8rerD/JVl/9Rs7Vvkrqvn/FzJJ7RUwRQIAAAAAAAAAAAAAAAAAAAAAFzJJ0xYySP0cPVf+FzJJ9xUvRa0VL0X9FS9F/hUwRaUWMkj3HD1X/hcySf0WMknTAAAAAAAAAAAAAAAAAAAAABUvRSMVL0WvFjJIlxUwRQQVL0UiFS9FYxUvRZkVL0UzFS9FBBYySJcVL0WvFTBFIwAAAAAAAAAA8A8AAOAHAADAAwAAwAMAAMADAADAA/C/wAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAA==">
     <link href="http://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/app.css">
-    <style>[ng-cloak] { display: none }</style>
+    <style>
+      [ng-cloak] { display: none }
+      
+    </style>
   </head>
   <body ng-app="gswg" ng-class="{loaded:loaded}">
     <div ng-controller="SidebarController" class="sidebar">
@@ -319,6 +322,7 @@
         <div>
           <iframe src="http://ghbtns.com/github-btn.html?user=jpillora&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="130" height="20"></iframe>
         </div>
+        <div><a href="https://twitter.com/jpillora" data-show-count="false" class="twitter-follow-button">Follow @jpillora</a></div>
         <div><span><a href="https://twitter.com/share" data-url="http://gswg.io" data-text="Learning Grunt? 'Getting Started with Grunt: The JavaScript Task Runner' has all the answers" data-hashtags="gswg,gruntjs" class="twitter-share-button">Tweet</a>
             <script>
               !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -340,7 +344,7 @@
         <div ng-controller="SearchController" class="ui stacked hyperlinks segment"><a ng-cloak ng-click="limit = limit == 5 ? 1000 : 5" ng-bind="'Show '+(limit == 5 ? 'All' : '5')" class="ui tiny orange limit button"></a>
           <h2>Hyperlink Search</h2>
           <p>
-            Please use this tool to search through all hyperlinks used in the book. 
+            Use this tool to search through all hyperlinks used in the book. 
             Use multiple search terms to refine the results.
           </p>
           <div class="ui fluid icon input">

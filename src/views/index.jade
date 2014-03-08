@@ -12,6 +12,7 @@ html
     link(rel="stylesheet", href="css/app.css")
     style.
       [ng-cloak] { display: none }
+  
   body(ng-app="gswg", ng-class="{loaded:loaded}")
 
     .sidebar(ng-controller="SidebarController")
@@ -28,6 +29,7 @@ html
       .social
         div: iframe(src="http://ghbtns.com/github-btn.html?user=jpillora&type=follow",
             allowtransparency="true",frameborder="0",scrolling="0",width="130",height="20")
+        div: a(href="https://twitter.com/jpillora" class="twitter-follow-button" data-show-count="false") Follow @jpillora
         div: span
           a.twitter-share-button(href='https://twitter.com/share', data-url='http://gswg.io', data-text='Learning Grunt? \'Getting Started with Grunt: The JavaScript Task Runner\' has all the answers', data-hashtags='gswg,gruntjs') Tweet
           script.
@@ -54,7 +56,7 @@ html
                                       ng-bind="'Show '+(limit == 5 ? 'All' : '5')")
         h2 Hyperlink Search
         p
-          | Please use this tool to search through all hyperlinks used in the book. 
+          | Use this tool to search through all hyperlinks used in the book. 
           | Use multiple search terms to refine the results.
         .ui.fluid.icon.input
           input(type='text', placeholder='Filter hyperlinks', ng-model="query", ng-change="filterChange()")

@@ -1,5 +1,5 @@
 
-/* line 166 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 168 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 
 /* line 1 : /Users/jpillora/.grunt-sources/web/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
@@ -49,12 +49,12 @@ svg {
   transition: all 0.3s linear;
 }
 
-/* line 46 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 47 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 a.fork {
   opacity: 0.5;
 }
 
-/* line 48 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 49 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar {
   text-align: center;
   float: left;
@@ -63,101 +63,102 @@ a.fork {
   overflow: hidden;
 }
 
-/* line 54 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 55 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .logo {
   height: 250px;
 }
 
-/* line 56 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 57 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .cover img {
   padding-top: 10px;
   height: 309px;
   width: 250px;
 }
 
-/* line 60 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 61 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .title {
   padding-bottom: 10px;
 }
 
-/* line 62 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 63 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .title .big {
   font-size: 40pt;
 }
 
-/* line 64 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 65 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .title .small {
   font-size: 30pt;
 }
 
-/* line 66 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 67 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .author .link {
   color: #ffcf79;
   text-decoration: underline;
 }
 
-/* line 69 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 70 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .sidebar .social {
-  padding-top: 40px;
+  padding: 20px;
   opacity: 0;
+  text-align: left;
 }
 
-/* line 72 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 74 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar {
   width: 1%;
   min-width: 150px;
 }
 
-/* line 75 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 77 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar .logo {
   height: 150px;
 }
 
-/* line 77 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 79 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 
-/* line 78 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 80 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar .title .big {
   font-size: 20pt;
 }
 
-/* line 80 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 82 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar .title .small {
   font-size: 15pt;
 }
 
-/* line 82 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 84 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar .link a {
   font-size: 20pt;
 }
 
-/* line 84 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 86 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .sidebar .social {
   opacity: 1;
 }
 
-/* line 86 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 88 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 @media (max-width : 480px) {
 
-/* line 87 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 89 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 
-/* line 88 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 90 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
   body.loaded .fork {
     display: none;
   }
 
-/* line 90 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 92 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
   body.loaded .sidebar {
     min-width: 0px;
     width: 1px;
   }
 
-/* line 93 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 95 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
   body.loaded .main {
     margin-left: 0px;
   }
 }
 
-/* line 95 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 97 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .main {
   margin-left: 1500px;
   overflow-x: hidden;
@@ -166,13 +167,13 @@ a.fork {
   padding: 0;
 }
 
-/* line 101 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 103 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main {
   margin-left: 150px;
   font-family: Helvetica;
 }
 
-/* line 104 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 106 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container {
   position: relative;
   height: 100%;
@@ -180,28 +181,28 @@ a.fork {
   box-sizing: border-box;
 }
 
-/* line 109 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 111 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 
-/* line 112 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 114 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .hyperlinks .pattern {
   display: none;
 }
 
-/* line 114 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 116 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .hyperlinks .hyperlink .text {
   overflow: hidden;
   width: 250px;
   text-overflow: ellipsis;
 }
 
-/* line 118 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 120 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .hyperlinks .limit.button {
   position: absolute;
   top: 20px;
   right: 20px;
 }
 
-/* line 122 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 124 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container img.cover {
   width: 100px;
   float: left;
@@ -209,7 +210,7 @@ a.fork {
   box-shadow: 0px 0px 4px 0px #333;
 }
 
-/* line 127 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 129 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .store.item {
   text-align: center;
   min-height: 0px;
@@ -217,40 +218,40 @@ a.fork {
   margin-bottom: 5px;
 }
 
-/* line 132 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 134 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 
-/* line 133 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 135 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .faq .message,
 .loaded .main .container .extras .message {
   padding-left: 40px;
   font-style: italic;
 }
 
-/* line 136 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 138 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .faq p.link,
 .loaded .main .container .extras p.link {
   padding-left: 20px;
 }
 
-/* line 138 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 140 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .faq a,
 .loaded .main .container .extras a {
   color: #b26017;
 }
 
-/* line 140 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 142 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loaded .main .container .footer {
   color: #fff;
   text-align: right;
   padding-bottom: 10px;
 }
 
-/* line 144 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 146 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 .loading {
   font-size: 30pt;
 }
 
-/* line 146 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 148 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup {
   text-align: center;
   padding-top: 60px;
@@ -264,18 +265,18 @@ a.fork {
   display: none;
 }
 
-/* line 158 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 160 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup.active {
   display: block;
   opacity: 1;
 }
 
-/* line 162 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 164 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup #link-title {
   font-size: 60pt;
 }
 
-/* line 164 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
+/* line 166 : /Users/jpillora/Code/JavaScript/gswg-io/src/styles/app.styl */
 #popup #link-url {
   font-size: 40pt;
 }
