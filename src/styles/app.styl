@@ -12,6 +12,7 @@ html, body, #popup
   color #FFF
   font-family 'Pathway Gothic One', sans-serif
   cursor wait
+  word-break break-word
 body.loaded
   cursor initial
 [ng-click]
@@ -33,6 +34,8 @@ div,svg
 a.fork
   opacity 0.5
 
+.loading
+  font-size 30pt
 
 .sidebar
   text-align center
@@ -77,6 +80,16 @@ a.fork
   .social
     opacity 1
 @media (max-width : 480px)
+
+  body .sidebar
+    .logo
+      height 150px
+    .title
+      .big
+        font-size 30pt
+      .small
+        font-size 25pt
+
   body.loaded
     .fork
       display none
@@ -89,7 +102,8 @@ a.fork
 .main
   margin-left 1500px
   overflow-x hidden
-  overflow-y auto
+  overflow-y scroll
+  -webkit-overflow-scrolling: touch
   height 100%
   padding 0
 
@@ -142,8 +156,6 @@ a.fork
       text-align right
       padding-bottom 10px
 
-.loading
-  font-size 30pt
 
 #popup
   text-align center
