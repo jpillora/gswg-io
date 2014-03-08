@@ -13,13 +13,14 @@ ngdeps.push (App) ->
 
     $rootScope.email = 'gswg@jpillora.com'
     $rootScope.ghprofile = 'https://github.com/jpillora'
-    $rootScope.examplesRepo = $rootScope.ghprofile+'/gswg-examples'
-    $rootScope.examplesIssues = $rootScope.examplesRepo+'/issues'
-    $rootScope.examplesZip = $rootScope.examplesRepo+'/archive/master.zip'
-    $rootScope.gswgRepo = $rootScope.ghprofile+'/gswg-examples'
+    $rootScope.gswgIoRepo = $rootScope.ghprofile+'/gswg-io'
+    $rootScope.gswgEgRepo = $rootScope.ghprofile+'/gswg-examples'
+    $rootScope.gswgEgIssues = $rootScope.gswgEgRepo+'/issues'
+    $rootScope.gswgEgZip = $rootScope.gswgEgRepo+'/archive/master.zip'
     $rootScope.gsrcRepo = $rootScope.ghprofile+'/grunt-source'
     $rootScope.gsrcWebRepo = $rootScope.gsrcRepo+'-web'
 
+    $rootScope.sampleCh = window.location.origin+'/files/9781783980628_Chapter_01.pdf'
     $rootScope.amazonReviews = 'http://www.amazon.com/dp/1783980621#cm_cr_dpwidget'
 
     $rootScope.visit = (url) ->
