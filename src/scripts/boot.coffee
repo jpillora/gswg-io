@@ -1,6 +1,5 @@
 
 ga 'create', 'UA-38709761-11', window.location.hostname
-ga 'send', 'pageview'
 
 $ = (id) ->
   document.getElementById id
@@ -12,7 +11,7 @@ doRedirect = (link, query) ->
     link.url = query.replace re, link.url
     link.title = query.replace re, link.title
   #track
-  ga 'send', 'event', 'Link', link.title, link.url
+  ga 'send', 'event', 'Redirect', link.id, link.title
   #display popup
   $('link-title').innerHTML = link.title
   $('link-url').innerHTML = link.url
@@ -33,7 +32,7 @@ linkCheck = (query) ->
         doRedirect link, query
         return true
     #no hit
-    ga 'send', 'event', 'Link Missing', query
+    ga 'send', 'event', 'Redirect Missing', query
   return false
 
 hashCheck = ->
@@ -55,6 +54,7 @@ loadApp = ->
       '//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css'
     ]
     callback: ->
+      ga 'send', 'pageview'
       App = angular.module 'gswg', []
       ngdeps.forEach (dep) -> dep App
   #

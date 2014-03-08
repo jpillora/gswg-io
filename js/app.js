@@ -5,8 +5,6 @@
 
   ga('create', 'UA-38709761-11', window.location.hostname);
 
-  ga('send', 'pageview');
-
   $ = function(id) {
     return document.getElementById(id);
   };
@@ -19,7 +17,7 @@
       link.url = query.replace(re, link.url);
       link.title = query.replace(re, link.title);
     }
-    ga('send', 'event', 'Link', link.title, link.url);
+    ga('send', 'event', 'Redirect', link.id, link.title);
     $('link-title').innerHTML = link.title;
     $('link-url').innerHTML = link.url;
     $('popup').className = 'active';
@@ -41,7 +39,7 @@
           return true;
         }
       }
-      ga('send', 'event', 'Link Missing', query);
+      ga('send', 'event', 'Redirect Missing', query);
     }
     return false;
   };
@@ -67,6 +65,7 @@
       load: ['//ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js', '//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css'],
       callback: function() {
         var App;
+        ga('send', 'pageview');
         App = angular.module('gswg', []);
         return ngdeps.forEach(function(dep) {
           return dep(App);
@@ -137,6 +136,10 @@
     return App.directive('ngHref', function() {
       return function($scope, elem, attrs) {
         elem.attr("target", "_blank");
+        elem.on("click", function() {
+          return ga('send', 'event', 'Href', attrs.ngHref);
+        });
+        window.elem = elem;
       };
     });
   });

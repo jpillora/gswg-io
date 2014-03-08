@@ -25,6 +25,15 @@ html
           | by 
           a.link(ng-href="http://jpillora.com") Jaime Pillora
 
+      .social
+        div: iframe(src="http://ghbtns.com/github-btn.html?user=jpillora&type=follow",
+            allowtransparency="true",frameborder="0",scrolling="0",width="130",height="20")
+        div: span
+          a.twitter-share-button(href='https://twitter.com/share', data-url='http://gswg.io', data-text='Learning Grunt? \'Getting Started with Grunt: The JavaScript Task Runner\' has all the answers', data-hashtags='gswg,gruntjs') Tweet
+          script.
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
     .main: .container(ng-cloak)
 
       a.fork(style='position: absolute; top: 0; right: 0; border: 0; z-index:1;', ng-href='https://github.com/jpillora/gswg-io')
