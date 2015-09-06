@@ -27,7 +27,7 @@
                                   ng-bind="'Show '+(limit == 5 ? 'All' : '5')")
     h2 Hyperlink Search
     p
-      | Use this tool to search through all hyperlinks used in the book. 
+      | Use this tool to search through all hyperlinks used in the book.
       | Use multiple search terms to refine the results.
     .ui.fluid.icon.input
       input(type='text', placeholder='Filter hyperlinks', ng-model="query", ng-change="filterChange()")
@@ -59,25 +59,25 @@
         a.content(ng-href="{{ s.url}}", title="{{ s.name }}")
           img(ng-src="img/{{ s.id }}.png", title="{{ s.name }}")
     .message
-      | If you enjoyed the book, please consider providing a 
+      | If you enjoyed the book, please consider providing a
       a(href=amazon) review on Amazon
 
     h4 Where can I download the code examples?
-    p 
+    p
       | Please visit the book examples Github repository here:
       p.link: a(ng-href="{{gswgEgRepo}}") {{gswgEgRepo}}
       | or you can directly download the .zip here:
       p.link: a(ng-href="{{gswgEgZip}}") {{gswgEgZip}}
-    
+
     h4 Where can I report issues with the book or the code examples?
     p
       | Please post all issues relating to the book here:
       p.link: a(ng-href="{{gswgEgIssues}}") {{gswgEgIssues}}
-    
+
     h4 Where can I send my praise and criticism?
     p
       | If you can spare the time, please place all remarks in a <a ng-href="{{amazonReviews}}">
-      | review on Amazon</a>,<br>otherwise you can send email to this address:  
+      | review on Amazon</a>,<br>otherwise you can send email to this address:
       | <a ng-href="mailto:{{email}}">{{email}}</a>.
 
   .ui.stacked.segment
@@ -87,18 +87,14 @@
       p Jaime has always been interested in all things computer science, and from a young age, he began to devote his time and effort to learning and perfecting his knowledge in the field. Jaime holds a Bachelor of Computer Science from the University of New South Wales. In all of his work, Jaime strives to reduce technical debt while maintaining maximum efficiency; this is done through software engineering best practices, combined with using the best tools for the given situation. Grunt is one such tool, which is utilized in every frontend project. Jaime's interest in Grunt began early on in his development career and he has since become a renowned expert.
       p Jaime has been working as a frontend JavaScript developer since 2008, and a backend JavaScript developer utilizing Node.js since 2011. Currently, Jaime leads all software development at Luma Networks, who is implementing software-defined networking on commodity hardware with full-stack JavaScript.
       p
-        span: iframe(src="http://ghbtns.com/github-btn.html?user=jpillora&type=follow",
+        span: iframe(src="https://ghbtns.com/github-btn.html?user=jpillora&type=follow",
                      allowtransparency="true",frameborder="0",scrolling="0",width="130",height="20")
         span: a(href="https://twitter.com/jpillora" class="twitter-follow-button" data-show-count="false") Follow @jpillora
 
   .ui.stacked.extras.segment
     h2 Extras
     .content
-      p 
+      p
         | This website is statically generated using the techniques in this book and is freely hosted on Github Pages.
         | The source code is available <a ng-href="{{gswgIoRepo}}">here</a> and it was built using
         | <a ng-href="{{gsrcRepo}}">Grunt Source</a> and <a ng-href="{{gsrcWebRepo}}"> Grunt Source Web</a>.
-
-  .ui.basic.footer.segment
-    | 
-    //- &copy; 2014
